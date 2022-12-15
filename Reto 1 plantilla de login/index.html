@@ -12,49 +12,39 @@
 <body>
 
     <div class="container login">
+        <div class="row text">
+            <div class="col-sm-9" id="text"> 
+                <h1>Login Form</h1>
+                <p id="latin">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-9">
                 <div class="row" id="info">
-                    <div class="col-11"><h1>Login to our site</h1><p>Enter username and Password</p></div>
+                    <div class="col-11"><h2 class="titl">Login to our site</h2><p class="titl">Enter username and Password</p></div>
                     <div clas="col-1" id="col_img"><img id="img" src="./images/lock.png" alt="Lock"></div>                    
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-9" id="form"> 
-                <input type="text" class="form-control" placeholder="Username">
-                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+                <input type="text" class="form-control form" placeholder="Username">
+                <input type="password" class="form-control form" id="inputPassword2" placeholder="Password">
+                <button type="button" class="btn btn-primary btn-lg btn-block form" id="login">Log in</button>
             </div>
         </div>
-    </div>
-
-
-
-
-
-
-    <!-- <div class="container login">
-        <div class="row">
-            <div class="col-sm-9" id="info">
-                <div><h1>Login to our site</h1></div>
-                <div><p>Enter username and Password</p></div>
-                <div class="col" id="form">
-                    Nivel 2: columna 1
-                </div>
-            </div>
-                <div class="col-sm-1" id="info">
-                    <div id="img"><img src="./images/lock.png" alt="lock"></div>
-                
-                    <div class="row">
-                        
-                    </div>
+        <div class="row text">
+            <div class="col-sm-9" id="text"> 
+                <h4>Login with</h4>
+                <div class="container redes">
+                    <button type="button ftg" class="btn btn-secondary btn-lg social"><img class="fatwgo fcb" src="./images/facebook.png" alt="F"> &nbsp;&nbsp;Facebook </button>
+                    <button type="button" class="btn btn-secondary btn-lg social"> <img class="fatwgo twt" src="./images/twitter.png" alt="tweety"> &nbsp;&nbsp;&nbsp;&nbsp; Twitter</button>
+                    <button type="button" class="btn btn-secondary btn-lg social"><img class="fatwgo gp" src="./images/googleplus.png" alt="G+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Google Plus</button>
                 </div>
             </div>
         </div>
-                 -->
-
     </div>
+</div>
 
  
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
