@@ -16,3 +16,4 @@
 ### Actualizaciones del proyecto
 
 <b>15/12/2022 Se ha realizado el primer reto (Crear una plantilla de login)</b>
+<b>16/12/2022 Se ha realizado el segundo reto (Crear una plantilla de formulario de contacto)</b>
