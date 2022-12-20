@@ -34,28 +34,53 @@
         <div class="collapse navbar-collapse downbar" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item separation">
-                    <li class="nav-item separation">
-                        <a class="nav-link" id="nav-link" href="#">Home</a>
+                    <div class="linea">
+                        <a class="nav-link menu" id="nav-link" href="#"></a>
+                    </div>
+                    <li class="nav-item separation"id="nav-link">
+                        <div id="linea">
+                            <a class="nav-link" id="nav-link" href="#"><div class="home"></div>Home</a>
+                        </div>
                     </li>
                 </li>
-                <li class="nav-item separation">
-                    <a class="nav-link" id="nav-link" href="#">About</a>
+                <li class="nav-item separation" id="about">
+                    <div id="linea">
+                        <a class="nav-link" id="nav-link" href="#"><div class="about"></div>About</a>
+                    </div>
                 </li>
-                <!-- a partir de aqui -->
-
                 <li class="nav-item dropdown separation">
                     <a class="nav-link dropdown-toggle" id="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Services
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                
-                <li class="nav-item separation">
+                    <ul class="dropdown-menu multi-level bocadillo" role="menu" aria-labelledby="dropdownMenu bocadillo" >
+                        <div class="arrowup"><img src="./images/arrowup.png" alt=""></div>
+                        <li class="subselect"><a id="desplegable" href="#">Watching new movies</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu subselect">
+                          <a id="desplegable"  tabindex="-1" href="#">Listening music</a>
+                          <ul class="dropdown-menu bocadillo right">
+                            <div class="arrowlft"><img src="./images/arrowlft.png" alt=""></div>
+                            <li class="subselect"><a id="desplegable" tabindex="-1" href="#">Sub item 01</a></li>
+                            <li class="subselect"><a id="desplegable" href="#">Sub item 02</a></li>
+                            <li class="subselect"><a id="desplegable" href="#">Sub item 03</a></li>
+                            <li class="subselect"><a id="desplegable" href="#">Sub item 04</a></li>
+                            <li class="dropdown-submenu subselect">
+                              <a id="desplegable" href="#">Sub item 05</a>
+                              <ul class="dropdown-menu bocadillo left">
+                                <div class="arrowrght"><img src="./images/arrowrght.png" alt=""></div>
+                                  <li class="subselect"><a id="desplegable" href="#">Sub item 01</a></li>
+                                  <li class="subselect"><a id="desplegable" href="#">Sub item 02</a></li>
+                                  <li class="subselect"><a id="desplegable" href="#">Sub item 03</a></li>
+                                  <li class="subselect"><a id="desplegable" href="#">Sub item 04</a></li>
+                              </ul>
+                            </li>
+                            <li class="subselect"><a id="desplegable" href="#">Sub item 06</a></li>
+                          </ul>
+                        </li>
+                        <li class="subselect"><a id="desplegable" href="#">Play new games</a></li>
+                        <li class="subselect"><a id="desplegable" href="#">Learn new design</a></li>
+                    </ul>                                         
+                <li class="nav-item separation" >
                     <a class="nav-link" id="nav-link" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item separation">
@@ -66,15 +91,26 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <div class="barra_busc">
+                    <div><input id="searchere" class="input" type="text" placeholder="search here..."></div>            
+                    <div class="bar_options"><img class="ico_busc"  src="./images/search.png" alt="Buscar en internet"></div>
+                </div>
+                <div class="redes">
+                    <img id="red" src="./images/facebook.png" alt="Facebook">
+                    <img id="red" src="./images/twitter.png" alt="Twitter">
+                    <img id="red" src="./images/googleplus.png" alt="Google+">
+                    <img id="red" src="./images/youtube.png" alt="YouTube">
+                </div>
+                <div class="user">
+                    <img id="user" src="./images/user.png" alt="User">
+                </div>
             </form>
         </div>
     </nav>
-      
 
 
 
+     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
