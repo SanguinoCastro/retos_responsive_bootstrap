@@ -10,6 +10,7 @@
 </head>
 <body>
 
+        <!-- He tirado mucho de CSS para dejarlo lo mas parecido a la imagen, no he sabido hacer el desplegable oscuro en forma de bocadillo con bootstrap, agradeceria cualquier comentario instructivo para saber como mejorar en el futuro, tengo en cuenta que mis clases e id són un poco caoticas. -->
 
     <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-light first">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,54 +38,86 @@
                     <div class="linea">
                         <a class="nav-link menu" id="nav-link" href="#"></a>
                     </div>
-                    <li class="nav-item separation"id="nav-link">
-                        <div id="linea">
-                            <a class="nav-link" id="nav-link" href="#"><div class="home"></div>Home</a>
+                    <li class="nav-item separation" id="nav-link">
+                        <div class="house" id="linea">
+                            <a class="nav-link" id="nav-link" href="#"><div class="home"></div>
+                                <div class="homy">Home</div>
+                            </a>
                         </div>
                     </li>
                 </li>
-                <li class="nav-item separation" id="about">
-                    <div id="linea">
-                        <a class="nav-link" id="nav-link" href="#"><div class="about"></div>About</a>
+                <li class="nav-item separation" id="nav-link">
+                    <div class="carta" id="linea">
+                        <a class="nav-link" id="nav-link" href="#"><div class="about"></div>
+                            <div class="homy">About</div>
+                        </a>
                     </div>
                 </li>
-                <li class="nav-item dropdown separation">
-                    <a class="nav-link dropdown-toggle" id="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Services
-                    </a>
-                    <ul class="dropdown-menu multi-level bocadillo" role="menu" aria-labelledby="dropdownMenu bocadillo" >
-                        <div class="arrowup"><img src="./images/arrowup.png" alt=""></div>
-                        <li class="subselect"><a id="desplegable" href="#">Watching new movies</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-submenu subselect">
-                          <a id="desplegable"  tabindex="-1" href="#">Listening music</a>
-                          <ul class="dropdown-menu bocadillo right">
-                            <div class="arrowlft"><img src="./images/arrowlft.png" alt=""></div>
-                            <li class="subselect"><a id="desplegable" tabindex="-1" href="#">Sub item 01</a></li>
-                            <li class="subselect"><a id="desplegable" href="#">Sub item 02</a></li>
-                            <li class="subselect"><a id="desplegable" href="#">Sub item 03</a></li>
-                            <li class="subselect"><a id="desplegable" href="#">Sub item 04</a></li>
-                            <li class="dropdown-submenu subselect">
-                              <a id="desplegable" href="#">Sub item 05</a>
-                              <ul class="dropdown-menu bocadillo left">
-                                <div class="arrowrght"><img src="./images/arrowrght.png" alt=""></div>
-                                  <li class="subselect"><a id="desplegable" href="#">Sub item 01</a></li>
-                                  <li class="subselect"><a id="desplegable" href="#">Sub item 02</a></li>
-                                  <li class="subselect"><a id="desplegable" href="#">Sub item 03</a></li>
-                                  <li class="subselect"><a id="desplegable" href="#">Sub item 04</a></li>
-                              </ul>
+                <li class="nav-item dropdown separation" >
+                    <div class="servicio" >
+                        <a class="nav-link dropdown-toggle" id="nav-link" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="services"></div>
+                            <div class="servi"> Services</div>
+                        </a>
+                        <ul class="dropdown-menu multi-level bocadillo" role="menu" aria-labelledby="dropdownMenu bocadillo" >
+                            <div class="arrowup"><img src="./images/arrowup.png" alt=""></div>
+                            <li class="subselect">
+                                <a id="desplegable" href="#">
+                                <img src="./images/video.png" alt="movies"> Watching new movies
+                                </a>
                             </li>
-                            <li class="subselect"><a id="desplegable" href="#">Sub item 06</a></li>
-                          </ul>
-                        </li>
-                        <li class="subselect"><a id="desplegable" href="#">Play new games</a></li>
-                        <li class="subselect"><a id="desplegable" href="#">Learn new design</a></li>
-                    </ul>                                         
-                <li class="nav-item separation" >
-                    <a class="nav-link" id="nav-link" href="#">Portfolio</a>
+                            <li class="divider"></li>
+                            <li class="dropdown-submenu subselect">
+                                <a id="desplegable"  tabindex="-1" href="#">
+                                    <img src="./images/music.png" alt="music"> Listening music
+                                </a>
+                                <ul class="dropdown-menu bocadillo right">
+                                    <div class="arrowlft"><img src="./images/arrowlft.png" alt=""></div>
+                                    <li class="subselect"><a id="desplegable" tabindex="-1" href="#">Sub item 01</a></li>
+                                    <li class="subselect"><a id="desplegable" href="#">Sub item 02</a></li>
+                                    <li class="subselect"><a id="desplegable" href="#">Sub item 03</a></li>
+                                    <li class="subselect"><a id="desplegable" href="#">Sub item 04</a></li>
+                                    <li class="dropdown-submenu subselect">
+                                        <a id="desplegable" href="#">Sub item 05</a>
+                                        <ul class="dropdown-menu bocadillo left">
+                                            <div class="arrowrght"><img src="./images/arrowrght.png" alt=""></div>
+                                            <li class="subselect"><a id="desplegable" href="#">Sub item 01</a></li>
+                                            <li class="subselect"><a id="desplegable" href="#">Sub item 02</a></li>
+                                            <li class="subselect"><a id="desplegable" href="#">Sub item 03</a></li>
+                                            <li class="subselect"><a id="desplegable" href="#">Sub item 04</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="subselect"><a id="desplegable" href="#">Sub item 06</a></li>
+                                </ul>
+                            </li>
+                            <li class="subselect">
+                                <a id="desplegable" href="#">
+                                    <img src="./images/game.png" alt="game"> Play new games
+                                </a>
+                            </li>
+                            <li class="subselect">
+                                <a id="desplegable" href="#">
+                                    <img src="./images/school.png" alt=""> Learn new design
+
+                                </a>
+                            </li>
+                        </ul> 
+                    </div>                                        
+                <li class="nav-item separation" id="nav-link">
+                    <div class="hat">
+                        <a class="nav-link" id="nav-link" href="#">
+                            <div class="portfolio"></div>
+                            <div class="haty">Portfolio</div>
+                            </a>
+                    </div>
                 </li>
-                <li class="nav-item separation">
-                    <a class="nav-link" id="nav-link" href="#">Contact</a>
+                <li class="nav-item separation" id="nav-link">
+                    <div class="contacto">
+                    <a class="nav-link" id="nav-link" href="#">
+                        <div class="contact"></div>
+                        <div class="conty">Contact</div>
+                    </a>
+                    </div>
                 </li>
                 <li class="nav-item separation">
                     <a class="nav-link" id="nav-link" href="#">Mega</a>
