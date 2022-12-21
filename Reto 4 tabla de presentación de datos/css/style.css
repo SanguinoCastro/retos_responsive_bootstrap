@@ -1,0 +1,108 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+h1{
+    color: #0d75e5;
+    margin-left: -0.5em;
+    margin-top: 1em;
+}
+.navigation{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabla{
+    margin-top: 1.5em;
+}
+
+.border{
+    border: 0.1em solid lightgrey;
+}
+.row{
+    border: 0.1em solid red;
+}
+
+.col{
+    border: 0.1em solid black;
+}
+
+.display{
+    display: flex;
+}
+.arrows{
+    display: flex;
+    border: 0.1em solid black;
+    height: 1.5em;
+    width: 3em;
+}
+
+.arrowup{
+    background-image: url(../images/up.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+
+.input{
+    margin-left: 0.5em;
+    border: 0.1em solid lightgrey;
+    border-radius: 0.3em;
+    width: 13.5em;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    height: 2em;
+    width: 10em;
+    margin-left: -0.5em;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2em;
+    height: 2.2em;
+    
+}
+
+.icoimg{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.action{
+    width: 15em;
+}
+
+#eye{
+    background-color: #0c74f2;
+    border-radius: 0.3em 0 0 0.3em;
+}
+
+#eye:hover{
+    background-color: #0b5fc5;
+}
+
+#pencil{
+    background-color: #22a944;
+}
+
+#pencil:hover{
+    background-color: #1c8d39;
+}
+
+#trash{
+    background-color: #de324b;
+        border-radius: 0 0.3em 0.3em 0;
+}
+
+#trash:hover{
+    background-color: #bb293f;
+}
