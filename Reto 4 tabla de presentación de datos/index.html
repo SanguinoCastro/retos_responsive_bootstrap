@@ -14,7 +14,24 @@
     </div>
 
     <div class="container navigation">
-        <div>Mostrar</div>
+        <div class="mostrar">
+            <p>Mostrar</p>
+            <div class="form-group">
+                <select class="form-control  registros" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div>
+              <p>registros</p>
+        </div>
         <div>Buscar: <input class="input" type="text"> </div>
     </div>
 
@@ -22,17 +39,41 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th class="border diplay" scope="col">ID 
-                        <div class="arrows">
+                    <th class="border col-1" scope="col">ID 
+                        <div class="arrows id">
                             <div class="arrowup">
                             </div>
                             <div class="arrowdown"></div>
                         </div>
                     </th>
-                    <th class="border" scope="col">Usuario</th>
-                    <th class="border" scope="col">Sector</th>
-                    <th class="border" scope="col">Ultimo Ingreso</th>
-                    <th class="border action" scope="col">Acción</th>
+                    <th class="border col-2" scope="col">Usuario
+                        <div class="arrows usuario">
+                            <div class="arrowup">
+                            </div>
+                            <div class="arrowdown"></div>
+                        </div>
+                    </th>
+                    <th class="border col-3"  scope="col">Sector
+                        <div class="arrows sector">
+                            <div class="arrowup">
+                            </div>
+                            <div class="arrowdown"></div>
+                        </div>
+                    </th>
+                    <th class="border col-3"  scope="col">Ultimo Ingreso
+                        <div class="arrows ingreso">
+                            <div class="arrowup">
+                            </div>
+                            <div class="arrowdown"></div>
+                        </div>
+                    </th>
+                    <th class="border col-2"  scope="col">Acción
+                        <div class="arrows action">
+                            <div class="arrowup">
+                            </div>
+                            <div class="arrowdown"></div>
+                        </div>
+                    </th>
                 </tr>
             </thead>
             <tbody>
@@ -133,7 +174,28 @@
                 </tr>
             </tbody>
         </table>
+        <div>
+            <p>Mostrando del 1 al 5 de un total de 5 registros</p>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination justify-content-end">
+              <li class="page-item">
+                <a class="page-link" href="#">Anterior</a>
+              </li>
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">
+                  1
+                  <span class="sr-only">(current)</span>
+                </span>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">Siguiente</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-primary" id="boton">Agregar Usuario</button>
+          </nav>
     </div>
+    
 
 
 

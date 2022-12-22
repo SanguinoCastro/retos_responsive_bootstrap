@@ -13,8 +13,13 @@
 - Crear una tabla de presentación de datos
 </b>
 
+### Anotaciones
+
+<b>Se ha hecho uso de Bootstrap para la arquitectura principal de los proyectos y se ha acabado de personalizar mediante hoja de estilos CSS</b>
+
 ### Actualizaciones del proyecto
 
 <b>15/12/2022 Se ha realizado el primer reto (Crear una plantilla de login)</b>
 <b>16/12/2022 Se ha realizado el segundo reto (Crear una plantilla de formulario de contacto)</b>
-<b>21/12/2022 Se ha finalizado el tercer reto (crear una barra de menú)</b>
+<b>21/12/2022 Se ha realizado el tercer reto (crear una barra de menú)</b>
+<b>22/12/2022 Se ha realizado el tercer reto (crear una tabla de presentación de datos.</b>
